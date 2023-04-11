@@ -1,67 +1,59 @@
 PODS:
-  - AXPhotoViewer/Core (1.7.0):
+  - AXPhotoViewer/Core (1.7.1):
     - AXStateButton (>= 1.1.3)
-    - FLAnimatedImage (>= 1.0.0)
+    - FLAnimatedImage (>= 1.0.16)
     - FLAnimatedImage-tvOS (>= 1.0.16)
-  - AXPhotoViewer/PINRemoteImage (1.7.0):
+  - AXPhotoViewer/PINRemoteImage (1.7.1):
     - AXPhotoViewer/Core
-    - PINRemoteImage (~> 3.0.0-beta.9)
+    - PINRemoteImage (= 3.0.3)
   - AXStateButton (1.1.4)
   - DRPLoadingSpinner (1.3.1):
     - DRPLoadingSpinner/core (= 1.3.1)
   - DRPLoadingSpinner/core (1.3.1)
-  - FLAnimatedImage (1.0.12)
-  - PINCache (3.0.1-beta.6):
-    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
-    - PINCache/Core (= 3.0.1-beta.6)
-  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+  - FLAnimatedImage (1.0.17)
+  - PINCache (3.0.3):
+    - PINCache/Arc-exception-safe (= 3.0.3)
+    - PINCache/Core (= 3.0.3)
+  - PINCache/Arc-exception-safe (3.0.3):
     - PINCache/Core
-  - PINCache/Core (3.0.1-beta.6):
-    - PINOperation (~> 1.1.0)
-  - PINOperation (1.1.1)
-  - PINRemoteImage (3.0.0-beta.13):
-    - PINRemoteImage/FLAnimatedImage (= 3.0.0-beta.13)
-    - PINRemoteImage/PINCache (= 3.0.0-beta.13)
-  - PINRemoteImage/Core (3.0.0-beta.13):
+  - PINCache/Core (3.0.3):
+    - PINOperation (~> 1.2.1)
+  - PINOperation (1.2.2)
+  - PINRemoteImage (3.0.3):
+    - PINRemoteImage/PINCache (= 3.0.3)
+  - PINRemoteImage/Core (3.0.3):
     - PINOperation
-  - PINRemoteImage/FLAnimatedImage (3.0.0-beta.13):
-    - FLAnimatedImage (>= 1.0)
+  - PINRemoteImage/PINCache (3.0.3):
+    - PINCache (~> 3.0.3)
     - PINRemoteImage/Core
-  - PINRemoteImage/PINCache (3.0.0-beta.13):
-    - PINCache (= 3.0.1-beta.6)
-    - PINRemoteImage/Core
-  - Reveal-SDK (13)
 
 DEPENDENCIES:
   - AXPhotoViewer/PINRemoteImage (from `../../AXPhotoViewer.podspec`)
   - DRPLoadingSpinner
-  - PINRemoteImage (~> 3.0.0-beta.9)
-  - Reveal-SDK
+  - PINRemoteImage (= 3.0.3)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - AXStateButton
     - DRPLoadingSpinner
     - FLAnimatedImage
     - PINCache
     - PINOperation
     - PINRemoteImage
-    - Reveal-SDK
 
 EXTERNAL SOURCES:
   AXPhotoViewer:
     :path: "../../AXPhotoViewer.podspec"
 
 SPEC CHECKSUMS:
-  AXPhotoViewer: 530af2fdd8eca4336f509c4c3463826b3f12a4c2
+  AXPhotoViewer: 9e03098395de480a98711471cc1f0851baee8f99
   AXStateButton: 6c515a433e37551505046429b5be04c12daa8c07
   DRPLoadingSpinner: 725e530bf4ebe2cc351b1fbc94d24fe8ac3300fd
-  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
-  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
-  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
-  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
-  Reveal-SDK: ccc2b0f8014965ea448b7534a7c2c8da232b75e8
+  FLAnimatedImage: bbf914596368867157cc71b38a8ec834b3eeb32b
+  PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
+  PINOperation: daa34d4aa1d8449089be7d405b9d974abc4724c6
+  PINRemoteImage: f1295b29f8c5e640e25335a1b2bd9d805171bd01
 
-PODFILE CHECKSUM: 6f4a81711307afc468e5f3e553aeb2549b5e1280
+PODFILE CHECKSUM: ad8c5616106b47d52bcbee484ec77b0c455a1969
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.12.0
