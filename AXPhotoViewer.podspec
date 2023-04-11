@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
     ks.ios.deployment_target = '11.0'
     ks.tvos.deployment_target = '10.0'
     ks.dependency      'AXPhotoViewer/Core'
-    ks.dependency      'Kingfisher', '>= 3.10.0'
+    ks.dependency      'Kingfisher', '>= 6.3.1'
     ks.source_files  = 'Source/Integrations/KingfisherIntegration.swift'
   end
 
